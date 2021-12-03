@@ -1,0 +1,25 @@
+/* Header CSS */
+.header {
+    background-image: 
+    linear-gradient(to right, rgba(55, 70, 170, 0.8), rgba(2, 27, 121, 0.8)),
+    url('./images/tearms-bg.png') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.topbar {
+    background-color: rgba(2, 27, 121, 1);
+}
+
+/* Footer CSS */
+.footer-thumb {
+    width: 60px;
+}
+
+@media only screen and (max-width: 1023px) {
+    footer {
+      text-align: center;
+    }
+}
